@@ -106,7 +106,7 @@ public class Church implements Merchants {
         switch (day) {
             case 1:
                 JOptionPane.showMessageDialog(null,
-                        "AH I see, so you did not come here seeking Divine Healing\nAbout a month ago the local major's wife passed away. He quickly became interested by dark magic, constantly asking me troubling questions.\nI believe he was aiming to raise the dead. A week ago he disappeared and these monster began to swarm us. The local militia did everything a secured the town but if the waves of monster are not abated we might not survive the year.\nIf you are seeking to help us, the local militia did find a nest of some sort of lizard creature. If you destroy it... we might stand a chance.\nQuest Added to Log!!");
+                        "AH I see, so you did not come here seeking Divine Healing\nAbout a month ago the local major's wife passed away. He quickly became interested by dark magic, constantly asking me troubling questions.\nI believe he was aiming to raise the dead. A week ago he disappeared and these monster began to swarm us. The local militia did everything to secured the town but if the waves of monster are not abated we might not survive the year.\nIf you are seeking to help us, the local militia did find a nest of some sort of lizard creature. If you destroy it... we might stand a chance.\nQuest Added to Log!!");
                 dayOneHard churchOne = new dayOneHard();
                 churchOne.overwrite();
                 return churchOne;

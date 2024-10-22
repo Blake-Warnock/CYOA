@@ -26,7 +26,7 @@ public class Menu {
                 } else {
                     tempString = JOptionPane.showInputDialog(null,
                             "Invalid\n(1) View Player Stats\n(2) View Current Quests\n(3) Speak to the Blacksmith\n(4) Visit the Church\n(5) Quit",
-                            "The Town of Brier", JOptionPane.INFORMATION_MESSAGE);
+                            "The Town of Brier " + time, JOptionPane.INFORMATION_MESSAGE);
                 }
             } else {
                 tempString = JOptionPane.showInputDialog(null,
